@@ -1,9 +1,19 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import {  RouterView } from 'vue-router'
+// import { useEventStore } from '@/stores/event'
+// import Toast from '@/components/Toast.vue'
+// const eventStore = useEventStore()
 </script>
 
 <template>
-  <RouterLink to="/">Home</RouterLink>
-  <RouterLink to="/profile">Profile</RouterLink>
-  <RouterView />
+  <div>
+    <!-- <Toast
+      v-if="eventStore.alert"
+      :status="eventStore.data.status"
+      :message="eventStore.data.message"
+    >
+    </Toast> -->
+    <RouterView />
+  </div>
+  
 </template>
