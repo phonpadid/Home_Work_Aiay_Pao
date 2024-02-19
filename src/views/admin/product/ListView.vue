@@ -104,3 +104,8 @@ const removeProduct = (index: number) => {
     </div>
   </AdminLayout>
 </template>
+<style scoped>
+.fontcss{
+  font-family: Phetsarath OT;
+}
+</style>

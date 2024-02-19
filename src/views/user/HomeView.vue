@@ -14,9 +14,6 @@ const addToCart = (productData:any) => {
   userCartStore.addToCart(productData)
   router.push({ name: 'cart' })
 }
-// onMounted(() => {
-//   userProductStore.loadProduct()
-// })
 
 </script>
 
